@@ -52,9 +52,9 @@
 	height: $sidebar-image-other-height;
 	background-image: url("images/sidebar2.png");
 	background-size: cover;
-	//rotating sidebar
-        -webkit-animation: sidb 30s linear infinite;
-        animation: sidb 30s steps(3, end) infinite;
+	//rotating sidebar - wouldn't go under 40 seconds since it gets annoying to look at
+        -webkit-animation: sidb 50s linear infinite;
+        animation: sidb 50s steps(3, end) infinite;
 	
 	// you get the idea
 	.search-page & {
