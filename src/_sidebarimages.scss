@@ -43,13 +43,8 @@
 
 // Position the second image
 input[name=uh] ~ a:after {
-    position: absolute;
-    top: 422px;
-    right: 0px;
-    z-index: 0;
-    width: 300px;
-    height: 228px;
-    border: 0px; 
+    top: 480px;
+    height: 300px; 
 }
 
 // Move the search bar above the images
@@ -62,7 +57,7 @@ input[name=uh] ~ a:after {
 // Overlay container to stop the random image from logging you out when clicked 
 .side .usertext-body h3:last-of-type a {
     position: absolute;
-    top: 441px;
+    top: 480px;
     right: 0px;
     width: 300px;
     height: 228px;
