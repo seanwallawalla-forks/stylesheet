@@ -43,21 +43,13 @@
 
 // Position the second image
 input[name=uh] ~ a:after {
-	top: $header-height +
-		$sidebar-padding +
-		$sidebar-search-height +
-		$sidebar-section-margin-vertical +
-		$sidebar-image-height +
-		$sidebar-section-margin-vertical;
-	height: $sidebar-image-other-height;
-	
-	// you get the idea
-	.search-page & {
-		top: $header-height +
-			$sidebar-section-margin-vertical +
-			$sidebar-image-height +
-			$sidebar-section-margin-vertical;
-	}
+    position: absolute;
+    top: 422px;
+    right: 0px;
+    z-index: 0;
+    width: 300px;
+    height: 228px;
+    border: 0px; 
 }
 
 // Move the search bar above the images
@@ -69,13 +61,12 @@ input[name=uh] ~ a:after {
 
 // Overlay container to stop the random image from logging you out when clicked 
 .side .usertext-body h3:last-of-type a {
-	top: $header-height +
-		$sidebar-padding +
-		$sidebar-search-height +
-		$sidebar-section-margin-vertical +
-		$sidebar-image-height +
-		$sidebar-section-margin-vertical;
-	height: $sidebar-image-other-height;
+    position: absolute;
+    top: 441px;
+    right: 0px;
+    width: 300px;
+    height: 228px;
+    z-index: 100;
     border: 0;
     font-size: 0px; }
 
